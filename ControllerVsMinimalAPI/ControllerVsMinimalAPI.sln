@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControllerAPI", "Controller
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalAPI", "MinimalAPI\MinimalAPI.csproj", "{3D76D8CA-DEBB-4915-BE51-28085B5F06B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastEPAPI", "FastEndpointsAPI\FastEPAPI.csproj", "{DE17A6A1-D96E-47DB-8536-3FC64433ADEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastEPAPI", "FastEndpointsAPI\FastEPAPI.csproj", "{DE17A6A1-D96E-47DB-8536-3FC64433ADEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Common", "WeatherApi.Common\WeatherApi.Common.csproj", "{CA7A4604-C069-4917-A73C-64EFD9068FFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DE17A6A1-D96E-47DB-8536-3FC64433ADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE17A6A1-D96E-47DB-8536-3FC64433ADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE17A6A1-D96E-47DB-8536-3FC64433ADEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7A4604-C069-4917-A73C-64EFD9068FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7A4604-C069-4917-A73C-64EFD9068FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7A4604-C069-4917-A73C-64EFD9068FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7A4604-C069-4917-A73C-64EFD9068FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

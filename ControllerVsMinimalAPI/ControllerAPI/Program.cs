@@ -1,4 +1,5 @@
 using ControllerAPI.Controllers;
+using Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddMediatR(cfg =>
-    cfg.RegisterServicesFromAssembly(typeof(WeatherController).Assembly));
+    cfg.RegisterServicesFromAssembly(typeof(CommonClass).Assembly));
 
 var app = builder.Build();
 

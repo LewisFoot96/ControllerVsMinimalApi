@@ -1,4 +1,4 @@
-﻿using ControllerAPI.Commands;
+﻿using Common.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,7 +1,7 @@
-﻿using ControllerAPI.WeatherResponses;
+﻿using Common.WeatherResponses;
 using MediatR;
 
-namespace ControllerAPI.Commands;
+namespace Common.Commands;
 
 public class CreateWeatherCommandHandler : IRequestHandler<CreateWeatherCommand, WeatherResponse>
 {

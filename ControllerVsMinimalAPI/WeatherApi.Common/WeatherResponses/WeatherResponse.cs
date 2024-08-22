@@ -1,6 +1,6 @@
 ﻿using OneOf;
 
-namespace ControllerAPI.WeatherResponses
+namespace Common.WeatherResponses
 {
     [GenerateOneOf]
     public partial class WeatherResponse : OneOfBase<WeatherResponse.Success, 

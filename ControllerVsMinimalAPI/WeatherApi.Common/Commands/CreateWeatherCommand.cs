@@ -1,6 +1,6 @@
-﻿using ControllerAPI.WeatherResponses;
+﻿using Common.WeatherResponses;
 using MediatR;
 
-namespace ControllerAPI.Commands;
+namespace Common.Commands;
 
 public record CreateWeatherCommand(int Temperature) : IRequest<WeatherResponse>;
