@@ -19,8 +19,10 @@ public class WeatherController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateWeather([FromQuery] int temperature)
     {
-        await _mediator.Send(new CreateWeatherCommand(temperature));
+        var result = await _mediator.Send(new CreateWeatherCommand(temperature));
 
-        return NoContent();
+        return result.Match<IActionResult>(
+            success => NoContent(),
+            failure => BadRequest(failure.Message));
     }
 }
